@@ -1,0 +1,296 @@
+<html>
+    <head>
+         <meta charset="utf-8">
+        <title>m</title>
+        <link rel="icon" href="hd-movies-folder-popcorn-images-20.png" /> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/slick.css">
+        <link rel="stylesheet" href="css/slick-theme.css">
+        <link rel="stylesheet" href="css/all.css" >
+        <link rel="stylesheet" href="css/bootstrap.min.css" >
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/ocplayer.min.css" >
+    </head>
+    <body style="background-color: #141518">
+<!------///nav////-------->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin: 0;">
+   <a class="navbar-brand" href="javascript:void(0)"><img src="img/logo/movie-popcorn-png-6.png"style="width: 104px;height: 47px;"></a>
+ <button onclick="document.getElementById('d01').style.display='block'" style="width:auto; background-color:#385898;border-radius:1.25rem;
+">Sign Up</button>
+<div id="d01" class="odal">
+  <form class="odal-content animate" action="/action_page.php" method="post" style="width: 57%;">
+    <div class="mgcontainer">
+     <span onclick="document.getElementById('d01').style.display='none'" class="lose" title="Close Modal">&times;</span>
+         <button type="button" class="btn btn-primary"> <i class="fab fa-facebook"></i> Facebook</button>
+         <button type="button" class="btn btn-danger"><i class="fab fa-google-plus"></i> Gmail</button>
+    </div>
+
+    <div class="ontainer">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+      <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+      <label for="psw"><b>Report password</b></label>
+      <input type="password" placeholder="Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="ontainer" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('d01').style.display='none'" class="ancelbtn">Cancel</button>
+      <span class="sw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+
+<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;border-radius:1.25rem;">Login</button>
+
+<div id="id01" class="modal">
+  <form class="modal-content animate" action="/action_page.php" method="post" style="width: 57%;">
+    <div class="imgcontainer">
+     <span onclick="document.getElementById('id01').style.display='none'" class="lose" title="Close Modal">&times;</span>
+         
+    </div>
+
+    <div class="ontainer">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1;height: 94px;">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navb">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link" href="Hom.html">Home</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="Movies 2020.html">Movies 2020</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="AllMovie.html">AllMovie</a>
+      </li>
+         <li class="nav-item">
+     <li class="nav-item dropdown">
+    <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Film Genres</a>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" href="#">Arabic Movies</a>
+      <a class="dropdown-item" href="#">English movies</a>
+      <a class="dropdown-item" href="#">Indian movies</a>
+      <a class="dropdown-item" href="#">Movies 2020</a>  
+      <a class="dropdown-item" href="#">TV show </a>   
+    </div>
+  </li>
+    </ul>
+    
+  </div>
+</nav>
+<!---------///////movie-card////////---------->
+        <div class="movie-card">
+  <div class="container">
+    <a href="#"><img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/hobbit_cover.jpg" alt="cover" class="cover" /></a>
+    <div class="hero"> 
+        <img class="hero-2" src="hobbit_bg.jpg" >
+      <div class="details">
+        <div class="title2">The Battle of the Five Armies</div>    
+        <span class="likes">  <img src="img/icon_like.png"/> like</span>
+      </div> <!-- end details -->
+        
+     </div> <!-- end hero -->
+   <br/>
+    <div class="description">
+      <div class="column1">
+        <span class="tag">action</span>
+        <span class="tag">fantasy</span>
+        <span class="tag">adventure</span>
+      </div> <!-- end column1 -->
+      <div class="column2">
+        <p>Bilbo Baggins is swept into a quest to reclaim the lost Dwarf Kingdom of Erebor from the fearsome dragon Smaug. Approached out of the blue by the wizard Gandalf the Grey, Bilbo finds himself joining a company of thirteen dwarves led by the legendary warrior, Thorin Oakenshield. Their journey will take them into the Wild; through... <a href="#">read more</a></p>
+        <div class="avatars">
+          <a href="#" data-tooltip="Person 1" data-placement="top">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/hobbit_avatar1.png" alt="avatar1" />
+          </a>
+          <a href="#" data-tooltip="Person 2" data-placement="top">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/hobbit_avatar2.png" alt="avatar2" />
+          </a>
+          <a href="#" data-tooltip="Person 3" data-placement="top">
+            <img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/hobbit_avatar3.png" alt="avatar3" />
+          </a>
+        </div> <!-- end avatars -->
+      </div> <!-- end column2 -->
+   </div> <!-- end description -->
+  </div> <!-- end container -->
+</div> <!-- end movie-card -->
+  <!-- Rating Stars Box -->
+  <div class='rating-stars text-center'>
+    <ul id='stars'>
+      <li class='star' title='Poor' data-value='1'>
+        <i class='fa fa-star fa-fw'></i>
+      </li>
+      <li class='star' title='Fair' data-value='2'>
+        <i class='fa fa-star fa-fw'></i>
+      </li>
+      <li class='star' title='Good' data-value='3'>
+        <i class='fa fa-star fa-fw'></i>
+      </li>
+      <li class='star' title='Excellent' data-value='4'>
+        <i class='fa fa-star fa-fw'></i>
+      </li>
+      <li class='star' title='WOW!!!' data-value='5'>
+        <i class='fa fa-star fa-fw'></i>
+      </li>
+    </ul>
+  </div>
+  <div class='success-box'>
+    <div class='clearfix'></div>
+    <img alt='tick image' width='32' src='data:image/svg+xml;utf8;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pgo8IS0tIEdlbmVyYXRvcjogQWRvYmUgSWxsdXN0cmF0b3IgMTkuMC4wLCBTVkcgRXhwb3J0IFBsdWctSW4gLiBTVkcgVmVyc2lvbjogNi4wMCBCdWlsZCAwKSAgLS0+CjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiBpZD0iTGF5ZXJfMSIgeD0iMHB4IiB5PSIwcHgiIHZpZXdCb3g9IjAgMCA0MjYuNjY3IDQyNi42NjciIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDQyNi42NjcgNDI2LjY2NzsiIHhtbDpzcGFjZT0icHJlc2VydmUiIHdpZHRoPSI1MTJweCIgaGVpZ2h0PSI1MTJweCI+CjxwYXRoIHN0eWxlPSJmaWxsOiM2QUMyNTk7IiBkPSJNMjEzLjMzMywwQzk1LjUxOCwwLDAsOTUuNTE0LDAsMjEzLjMzM3M5NS41MTgsMjEzLjMzMywyMTMuMzMzLDIxMy4zMzMgIGMxMTcuODI4LDAsMjEzLjMzMy05NS41MTQsMjEzLjMzMy0yMTMuMzMzUzMzMS4xNTcsMCwyMTMuMzMzLDB6IE0xNzQuMTk5LDMyMi45MThsLTkzLjkzNS05My45MzFsMzEuMzA5LTMxLjMwOWw2Mi42MjYsNjIuNjIyICBsMTQwLjg5NC0xNDAuODk4bDMxLjMwOSwzMS4zMDlMMTc0LjE5OSwzMjIuOTE4eiIvPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8Zz4KPC9nPgo8L3N2Zz4K'/>
+    <div class='text-message'></div>
+    <div class='clearfix'></div>
+  </div>   
+    <!-- 21:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-21by9">
+  <iframe class="embed-responsive-item" src="[CimaClub.Com]-Mandy.2018.720p._.mkv"></iframe>
+</div>
+ <!------//////jackson////-------->
+              <marquee class="jackson" direction="left">
+    <img src="https://media.giphy.com/media/EDZP0UCtxiRQQ/giphy.gif" alt="">
+  </marquee>
+       <!----////////link-More movies///////-------->
+        <div class="container-1">
+            <div class="ee"><p class="aa"> More movies  </p>
+            </div>
+        </div>
+  <!--------/////////Cards/////-------->       
+<div class="contner-margin">
+   <div id="all">
+      <div class="view view-second">
+        <img src="img/20190519181731.jpg" />
+        <div class="mask"></div>
+        <div class="content">
+          <h2 id="testimonials">Skyscrapers</h2>
+          <p>&ldquo;Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh semper tellus mollis nisl vulputate lorem consequat. Fusce odio tellus mollis nisl pulvinar vitae vulputate lorem &rdquo;</p>
+          <a href="#" class="info">Read More</a>
+        </div>
+      </div>
+       <div class="view view-second">
+        <img src="img/20190519181731.jpg" />
+        <div class="mask"></div>
+        <div class="content">
+          <h2 id="testimonials">Skyscrapers</h2>
+          <p>&ldquo;Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh semper tellus mollis nisl vulputate lorem consequat. Fusce odio tellus mollis nisl pulvinar vitae vulputate lorem &rdquo;</p>
+          <a href="#" class="info">Read More</a>
+        </div>
+      </div>
+       <div class="view view-second">
+        <img src="img/20190519181731.jpg" />
+        <div class="mask"></div>
+        <div class="content">
+          <h2 id="testimonials">Skyscrapers</h2>
+          <p>&ldquo;Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh semper tellus mollis nisl vulputate lorem consequat. Fusce odio tellus mollis nisl pulvinar vitae vulputate lorem &rdquo;</p>
+          <a href="#" class="info">Read More</a>
+        </div>
+      </div>
+       <div class="view view-second">
+        <img src="img/20190519181731.jpg" />
+        <div class="mask"></div>
+        <div class="content">
+          <h2 id="testimonials">Skyscrapers</h2>
+          <p>&ldquo;Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh semper tellus mollis nisl vulputate lorem consequat. Fusce odio tellus mollis nisl pulvinar vitae vulputate lorem &rdquo;</p>
+          <a href="#" class="info">Read More</a>
+        </div>
+      </div>
+       <div class="view view-second">
+        <img src="img/20190519181731.jpg" />
+        <div class="mask"></div>
+        <div class="content">
+          <h2 id="testimonials">Skyscrapers</h2>
+          <p>&ldquo;Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh semper tellus mollis nisl vulputate lorem consequat. Fusce odio tellus mollis nisl pulvinar vitae vulputate lorem &rdquo;</p>
+          <a href="#" class="info">Read More</a>
+        </div>
+      </div>
+       <div class="view view-second">
+        <img src="img/20190519181731.jpg" />
+        <div class="mask"></div>
+        <div class="content">
+          <h2 id="testimonials">Skyscrapers</h2>
+          <p>&ldquo;Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh semper tellus mollis nisl vulputate lorem consequat. Fusce odio tellus mollis nisl pulvinar vitae vulputate lorem &rdquo;</p>
+          <a href="#" class="info">Read More</a>
+        </div>
+      </div>
+       <div class="view view-second">
+        <img src="img/20190519181731.jpg" />
+        <div class="mask"></div>
+        <div class="content">
+          <h2 id="testimonials">Skyscrapers</h2>
+          <p>&ldquo;Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh semper tellus mollis nisl vulputate lorem consequat. Fusce odio tellus mollis nisl pulvinar vitae vulputate lorem &rdquo;</p>
+          <a href="#" class="info">Read More</a>
+        </div>
+      </div>
+       <div class="view view-second">
+        <img src="img/20190519181731.jpg" />
+        <div class="mask"></div>
+        <div class="content">
+          <h2 id="testimonials">Skyscrapers</h2>
+          <p>&ldquo;Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh semper tellus mollis nisl vulputate lorem consequat. Fusce odio tellus mollis nisl pulvinar vitae vulputate lorem &rdquo;</p>
+          <a href="#" class="info">Read More</a>
+        </div>
+      </div>
+       <div class="view view-second">
+        <img src="img/20190519181731.jpg" />
+        <div class="mask"></div>
+        <div class="content">
+          <h2 id="testimonials">Skyscrapers</h2>
+          <p>&ldquo;Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh semper tellus mollis nisl vulputate lorem consequat. Fusce odio tellus mollis nisl pulvinar vitae vulputate lorem &rdquo;</p>
+          <a href="#" class="info">Read More</a>
+        </div>
+      </div>
+       <div class="view view-second">
+        <img src="img/20190519181731.jpg" />
+        <div class="mask"></div>
+        <div class="content">
+          <h2 id="testimonials">Skyscrapers</h2>
+          <p>&ldquo;Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh semper tellus mollis nisl vulputate lorem consequat. Fusce odio tellus mollis nisl pulvinar vitae vulputate lorem &rdquo;</p>
+          <a href="#" class="info">Read More</a>
+        </div>
+      </div>
+      </div>
+        </div>
+ <!-------/////button top////////------->
+         <div class="cotainer-top">    
+        <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button"style=" color: #212529; background-color: #141518;
+    border-color: #000;"><i class="fas fa-angle-up"></i></a>
+    </div>     
+ <!------///////footer///////----->
+           <div class="footer">&copy;copyRight (AHMED SABER)</div>
+        
+         <script  src="js/jquery-3.4.1.min.js"></script>
+        <script src="js/script.js"></script>
+        
+        <script  src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        
+        <script src="js/test.js"></script>
+    </body>
+
+</html>

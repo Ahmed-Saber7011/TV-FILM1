@@ -1,0 +1,866 @@
+<!---D0CTPE html---->
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>m</title>
+  <link rel="icon" href="hd-movies-folder-popcorn-images-20.png" />
+  
+  
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  
+</head>
+
+<body style="background-color: #141518;">
+  <!------///nav////-------->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="margin: 0;">
+    <a class="navbar-brand" href="javascript:void(0)"><img src="img/logo/movie-popcorn-png-6.png"
+        style="width: 104px;height: 47px;"></a>
+    <button onclick="document.getElementById('d01').style.display='block'" style="width:auto; background-color:#385898;border-radius:1.25rem;
+">Sign Up</button>
+    <div id="d01" class="odal">
+      <form class="odal-content animate" action="/action_page.php" method="post" style="width: 57%;">
+        <div class="mgcontainer">
+          <span onclick="document.getElementById('d01').style.display='none'" class="lose"
+            title="Close Modal">&times;</span>
+          <button type="button" class="btn btn-primary"> <i class="fab fa-facebook"></i> Facebook</button>
+          <button type="button" class="btn btn-danger"><i class="fab fa-google-plus"></i> Gmail</button>
+        </div>
+
+        <div class="ontainer">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+          <label for="email"><b>Email</b></label>
+          <input type="text" placeholder="Enter Email" name="email" required>
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+          <label for="psw"><b>Report password</b></label>
+          <input type="password" placeholder="Password" name="psw" required>
+
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+
+        <div class="ontainer" style="background-color:#f1f1f1">
+          <button type="button" onclick="document.getElementById('d01').style.display='none'"
+            class="ancelbtn">Cancel</button>
+          <span class="sw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+
+    <button onclick="document.getElementById('id01').style.display='block'"
+      style="width:auto;border-radius:1.25rem;">Login</button>
+
+    <div id="id01" class="modal">
+      <form class="modal-content animate" action="/action_page.php" method="post" style="width: 57%;">
+        <div class="imgcontainer">
+          <span onclick="document.getElementById('id01').style.display='none'" class="lose"
+            title="Close Modal">&times;</span>
+
+        </div>
+
+        <div class="ontainer">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+
+        <div class="container" style="background-color:#f1f1f1;height: 94px;">
+          <button type="button" onclick="document.getElementById('id01').style.display='none'"
+            class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+      </form>
+    </div>
+    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navb">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navb">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="Hom.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Movies 2020.html">Movies 2020</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="AllMovie.html">AllMovie</a>
+        </li>
+        <li class="nav-item">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#">Film Genres</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Arabic Movies</a>
+            <a class="dropdown-item" href="#">English movies</a>
+            <a class="dropdown-item" href="#">Indian movies</a>
+            <a class="dropdown-item" href="#">Movies 2020</a>
+            <a class="dropdown-item" href="#">TV show </a>
+          </div>
+        </li>
+      </ul>
+
+    </div>
+  </nav>
+  <!--Slider Description example-->
+  <div id="slider">
+    <div class="slides">
+      <div class="slider">
+        <div class="legend"></div>
+        <div class="content">
+          <div class="content-txt">
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+            <h2>Lorem ipsum dolor</h2>
+            <p>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem
+              consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</p>
+
+          </div>
+        </div>
+        <div class="image">
+
+          <img src="img/1.jpg">
+
+        </div>
+      </div>
+      <div class="slider">
+        <div class="legend"></div>
+        <div class="content">
+          <div class="content-txt">
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+            <h2>Lorem ipsum dolor</h2>
+            <p>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem
+              consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</p>
+          </div>
+        </div>
+        <div class="image">
+          <img src="img/20190519181731.jpg">
+        </div>
+      </div>
+      <div class="slider">
+        <div class="legend"></div>
+        <div class="content">
+          <div class="content-txt">
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+            <h2>Lorem ipsum dolor</h2>
+            <p>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem
+              consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</p>
+          </div>
+        </div>
+        <div class="image">
+          <img src="img/joker.jpg">
+        </div>
+      </div>
+      <div class="slider">
+        <div class="legend"></div>
+        <div class="content">
+          <div class="content-txt">
+            <button type="button" class="btn btn-outline-warning">Warning</button>
+            <h2>Lorem ipsum dolor</h2>
+            <p>Nam ultrices pellentesque facilisis. In semper tellus mollis nisl pulvinar vitae vulputate lorem
+              consequat. Fusce odio tortor, pretium sit amet auctor ut, ultrices vel nibh.</p>
+          </div>
+        </div>
+        <div class="image">
+          <img src="img/Bloodshot-1-435x623.jpg">
+        </div>
+      </div>
+    </div>
+    <div class="switch">
+      <ul>
+        <li>
+          <div class="on"></div>
+        </li>
+        <li></li>
+        <li></li>
+        <li></li>
+      </ul>
+    </div>
+  </div>
+
+
+
+  <!-----////search Description//////----->
+  <div class="search">
+    <input type="text" class="searchTerm" placeholder="What are you looking for?" style="margin: auto; padding: 17px;">
+    <button type="submit" class="searchButton">
+      <i class="fa fa-search"></i>
+    </button>
+  </div>
+  <br />
+  <!-----////Announcement and communication////----->
+  <div class="container-list">
+    <!--flag-->
+    <h1>movie trailers 2020 </h1>
+    <div class="flex-container">
+      <div style="flex-grow: 5 ;">
+        <!--Ad display-->
+        <iframe height="100%" width="100%" src="[CimaClub.Com]-Mandy.2018.720p._.mkv" frameborder="0" name="iframe_a">
+
+        </iframe>
+
+      </div>
+      <div style="flex-grow: 0">
+        <!--playlist Ad display-->
+        <div class="container-playlist">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+
+              <a href="../../%5BEgyBest%5D.Bany.Adam.2018.HDRip.480p.x264.mp4" target="iframe_a">
+                <img class="folder-holder-img" src="img/Bloodshot-1-435x623.jpg">
+                <p class="The-movie">Bloodshot.2020<span>eee</span> </p>
+
+              </a>
+
+            </li>
+            <li class="nav-item">
+              <a href="../%5BEgyBest%5D.Close.Range.2015.720p.x264.MP4" target="iframe_a">
+                <img class="folder-holder-img" src="img/Bloodshot-1-435x623.jpg">
+                <p class="The-movie">Bloodshot.2020<span>eee</span> </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="John+Wick+2014+1080p+BluRay+ArabHD.co.MP4" target="iframe_a">
+                <img class="folder-holder-img" src="img/Bloodshot-1-435x623.jpg">
+                <p class="The-movie">Bloodshot.2020<span>eee</span> </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="[EgyBest].Bloodshot.2020.HDCAM.480p.x264.mp4" target="iframe_a">
+                <img class="folder-holder-img" src="img/Bloodshot-1-435x623.jpg">
+                <p class="The-movie">Bloodshot.2020<span>eee</span> </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="John+Wick+2014+1080p+BluRay+ArabHD.co.MP4" target="iframe_a">
+                <img class="folder-holder-img" src="img/Bloodshot-1-435x623.jpg">
+                <p class="The-movie">Bloodshot.2020<span>eee</span> </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="[EgyBest].Bloodshot.2020.HDCAM.480p.x264.mp4" target="iframe_a">
+                <img class="folder-holder-img" src="img/Bloodshot-1-435x623.jpg">
+                <p class="The-movie">Bloodshot.2020<span>eee</span> </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="John+Wick+2014+1080p+BluRay+ArabHD.co.MP4" target="iframe_a">
+                <img class="folder-holder-img" src="img/Bloodshot-1-435x623.jpg">
+                <p class="The-movie">Bloodshot.2020<span>eee</span> </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="[EgyBest].Bloodshot.2020.HDCAM.480p.x264.mp4" target="iframe_a">
+                <img class="folder-holder-img" src="img/Bloodshot-1-435x623.jpg">
+                <p class="The-movie">Bloodshot.2020<span>eee</span> </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="John+Wick+2014+1080p+BluRay+ArabHD.co.MP4" target="iframe_a">
+                <img class="folder-holder-img" src="img/Bloodshot-1-435x623.jpg">
+                <p class="The-movie">Bloodshot.2020<span>eee</span> </p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a href="[EgyBest].Bloodshot.2020.HDCAM.480p.x264.mp4" target="iframe_a">
+                <img class="folder-holder-img" src="img/Bloodshot-1-435x623.jpg">
+                <p class="The-movie">Bloodshot.2020<span>eee</span> </p>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="p-2">
+        <div class="content22">
+          <div class="slider-wrapper">
+            view
+            <div class="slide1">
+              <div class="text1">
+                <p class="tx">Arabic Movies</p>
+              </div>
+              <div class="text2">
+                <p class="tx">Foreign movies</p>
+              </div>
+              <div class="text3">
+                <p class="tx">Indian movies</p>
+              </div>
+            </div>
+            movies
+          </div>
+        </div>
+        <button type="button" class="btn btn-primary"><i class="fab fa-facebook"></i>
+          <h3>Facebook</h3>
+        </button>
+        <button type="button" class="btn btn-danger"><i class="fab fa-google-plus"></i>
+          <h3> Gmail</h3>
+        </button>
+        <button type="button" class="btn btn-primary"><i class="fab fa-twitter-square"></i>
+          <h3> Twitter</h3>
+        </button>
+        <button type="button" class="btn btn-warning"> <i class="fab fa-instagram"></i>
+          <h3> instagram</h3>
+        </button>
+      </div>
+    </div>
+  </div>
+  <!-------////folder2///-------->
+  <div class="container-folder2">
+    <div class="folder-holder">
+      <a href="#">
+        <img class="project-image" src="img/t%C3%A9l%C3%A9chargement.jpg">
+        <div class="folder-close">
+          <p>Arabic Movies</p>
+        </div>
+      </a>
+    </div>
+    <div class="folder-holder">
+      <a href="#">
+        <img class="project-image" src="img/folder/all-movies-stream-kodi.png">
+        <div class="folder-close">
+          <p>English movies</p>
+        </div>
+      </a>
+    </div>
+    <div class="folder-holder">
+      <a href="#">
+        <img class="project-image" src="img/folder/1.jpg">
+        <div class="folder-close">
+          <p>Indian movies</p>
+        </div>
+      </a>
+    </div>
+    <div class="folder-holder">
+      <a href="#">
+        <img class="project-image" src="img/folder/list-2020-758x403.jpg">
+        <div class="folder-close">
+          <p>Movies 2020</p>
+        </div>
+      </a>
+    </div>
+    <div class="folder-holder">
+      <a href="#">
+        <img class="project-image" src="img/folder/download.jpg">
+        <div class="folder-close">
+          <p>TV show</p>
+        </div>
+      </a>
+    </div>
+    
+      <div class="folder-holder">
+        <a href="#">
+          <img class="project-image" src="img/folder/download.jpg">
+          <div class="folder-close">
+            <p>TV show</p>
+          </div>
+        </a>
+      </div>
+       
+      <div class="folder-holder">
+        <a href="#">
+          <img class="project-image" src="img/folder/download.jpg">
+          <div class="folder-close">
+            <p>TV show</p>
+          </div>
+        </a>
+      </div>
+      <div class="folder-holder">
+        <a href="#">
+          <img class="project-image" src="img/folder/download.jpg">
+          <div class="folder-close">
+            <p>TV show</p>
+          </div>
+        </a>
+      </div>
+      <div class="folder-holder">
+        <a href="#">
+          <img class="project-image" src="img/folder/download.jpg">
+          <div class="folder-close">
+            <p>TV show</p>
+          </div>
+        </a>
+      </div>
+      <div class="folder-holder">
+        <a href="#">
+          <img class="project-image" src="img/folder/download.jpg">
+          <div class="folder-close">
+            <p>TV show</p>
+          </div>
+        </a>
+      </div>
+      <div class="folder-holder">
+        <a href="#">
+          <img class="project-image" src="img/folder/download.jpg">
+          <div class="folder-close">
+            <p>TV show</p>
+          </div>
+        </a>
+      </div>
+      <div class="folder-holder">
+        <a href="#">
+          <img class="project-image" src="img/folder/download.jpg">
+          <div class="folder-close">
+            <p>TV show</p>
+          </div>
+        </a>
+      </div>
+
+
+
+      </div>
+
+    </div>
+
+  </div>
+
+  <!------///slide movies ////------->
+  <div class="movies">
+    <div class="myDiv1">
+      <p class="Title">English movies</p>
+    </div>
+    <div id="d" class="carousel slide" data-ride="c">
+      <!-- The slideshow1 -->
+      <div class="container carousel-inner no-padding">
+        <div class="carousel-item active">
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <img src="img/movies/.Fast.And.Furious.Presents.Hobbs.And.Shaw.2019..jpg">
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <img src="img/movies/.Joker.2019%20.jpg">
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <img src="img/movies/.Knock.Knock.2015.jpg">
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <img src="img/movies/300+Rise+of+an+Empire+2014.jpg">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <img src="img/movies/Abduction.2019.jpg">
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <img src="img/movies/Alfil.Al'azraq.2%20.jpg">
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <img src="img/movies/Amar.Akbar.Anthony.2018.jpg">
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <img src="img/movies/Angel.Has.Fallen.2019.jpg">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <img src="img/movies/Ant-Man%20(2015)%E2%80%8E.jpg">
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <img src="img/movies/Avengers.Infinity.War.2018%20.jpg">
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <img src="img/movies/Baadshaho.2017.jpg">
+          </div>
+          <div class="col-xs-3 col-sm-3 col-md-3">
+            <img src="img/movies/Bharat.2019.jpg">
+          </div>
+        </div>
+      </div>
+
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#d" data-slide="prev">
+        <i class="fas fa-angle-left"></i> </a>
+      <a class="carousel-control-next" href="#d" data-slide="next">
+        <i class="fas fa-angle-right"></i>
+      </a>
+    </div>
+  </div>
+  <div class="movies2">
+    <div class="movies">
+      <div class="myDiv1">
+        <p class="Title">Arabic Movies</p>
+      </div>
+      <div id="o" class="carousel slide" data-ride="l">
+        <!-- The slideshow2 -->
+        <div class="container carousel-inner no-padding">
+          <div class="carousel-item active">
+            <a class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/.Fast.And.Furious.Presents.Hobbs.And.Shaw.2019..jpg">
+            </a>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/.Joker.2019%20.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/.Knock.Knock.2015.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/300+Rise+of+an+Empire+2014.jpg">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Abduction.2019.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Alfil.Al'azraq.2%20.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Amar.Akbar.Anthony.2018.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Angel.Has.Fallen.2019.jpg">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Ant-Man%20(2015)%E2%80%8E.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Avengers.Infinity.War.2018%20.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Baadshaho.2017.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Bharat.2019.jpg">
+            </div>
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#o" data-slide="prev">
+          <i class="fas fa-angle-left"></i> </a>
+        <a class="carousel-control-next" href="#o" data-slide="next">
+          <i class="fas fa-angle-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="movies2">
+    <div class="movies">
+      <div class="myDiv1">
+        <p class="Title">Indian movies</p>
+      </div>
+      <div id="mo" class="carousel slide" data-ride="el">
+        <!-- The slideshow3 -->
+        <div class="container carousel-inner no-padding">
+          <div class="carousel-item active">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/.Fast.And.Furious.Presents.Hobbs.And.Shaw.2019..jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/.Joker.2019%20.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/.Knock.Knock.2015.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/300+Rise+of+an+Empire+2014.jpg">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Abduction.2019.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Alfil.Al'azraq.2%20.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Amar.Akbar.Anthony.2018.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Angel.Has.Fallen.2019.jpg">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Ant-Man%20(2015)%E2%80%8E.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Avengers.Infinity.War.2018%20.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Baadshaho.2017.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Bharat.2019.jpg">
+            </div>
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#mo" data-slide="prev">
+          <i class="fas fa-angle-left"></i> </a>
+        <a class="carousel-control-next" href="#mo" data-slide="next">
+          <i class="fas fa-angle-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="movies2">
+    <div class="movies">
+      <div class="myDiv1">
+        <p class="Title">Movies 2020</p>
+      </div>
+      <div id="demo" class="carousel slide" data-ride="sel">
+        <!-- The slideshow4 -->
+        <div class="container carousel-inner no-padding">
+          <div class="carousel-item active">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/.Fast.And.Furious.Presents.Hobbs.And.Shaw.2019..jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/.Joker.2019%20.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/.Knock.Knock.2015.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/300+Rise+of+an+Empire+2014.jpg">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Abduction.2019.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Alfil.Al'azraq.2%20.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Amar.Akbar.Anthony.2018.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Angel.Has.Fallen.2019.jpg">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Ant-Man%20(2015)%E2%80%8E.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Avengers.Infinity.War.2018%20.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Baadshaho.2017.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Bharat.2019.jpg">
+            </div>
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <i class="fas fa-angle-left"></i> </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <i class="fas fa-angle-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="movies2">
+    <div class="movies">
+      <div class="myDiv1">
+        <p class="Title">TV show</p>
+      </div>
+      <div id="e" class="carousel slide" data-ride="usel">
+        <!-- The slideshow5 -->
+        <div class="container carousel-inner no-padding">
+          <div class="carousel-item active">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/.Fast.And.Furious.Presents.Hobbs.And.Shaw.2019..jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/.Joker.2019%20.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/.Knock.Knock.2015.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/300+Rise+of+an+Empire+2014.jpg">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Abduction.2019.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Alfil.Al'azraq.2%20.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Amar.Akbar.Anthony.2018.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Angel.Has.Fallen.2019.jpg">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Ant-Man%20(2015)%E2%80%8E.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Avengers.Infinity.War.2018%20.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Baadshaho.2017.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Bharat.2019.jpg">
+            </div>
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#e" data-slide="prev">
+          <i class="fas fa-angle-left"></i> </a>
+        <a class="carousel-control-next" href="#e" data-slide="next">
+          <i class="fas fa-angle-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="movies2">
+    <div class="movies">
+      <div class="myDiv1">
+        <p class="Title">most watched</p>
+      </div>
+      <div id="di" class="carousel slide" data-ride="ca">
+        <!-- The slideshow6 -->
+        <div class="container carousel-inner no-padding">
+          <div class="carousel-item active">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/.Fast.And.Furious.Presents.Hobbs.And.Shaw.2019..jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/.Joker.2019%20.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/.Knock.Knock.2015.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/300+Rise+of+an+Empire+2014.jpg">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Abduction.2019.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Alfil.Al'azraq.2%20.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Amar.Akbar.Anthony.2018.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Angel.Has.Fallen.2019.jpg">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Ant-Man%20(2015)%E2%80%8E.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Avengers.Infinity.War.2018%20.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Baadshaho.2017.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Bharat.2019.jpg">
+            </div>
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#di" data-slide="prev">
+          <i class="fas fa-angle-left"></i> </a>
+        <a class="carousel-control-next" href="#di" data-slide="next">
+          <i class="fas fa-angle-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="movies2">
+    <div class="movies">
+      <div class="myDiv1">
+        <p class="Title">Downloaded now</p>
+      </div>
+      <div id="de" class="carousel slide" data-ride="o">
+        <!-- The slideshow7 -->
+        <div class="container carousel-inner no-padding">
+          <div class="carousel-item active">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/.Fast.And.Furious.Presents.Hobbs.And.Shaw.2019..jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/.Joker.2019%20.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/.Knock.Knock.2015.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/300+Rise+of+an+Empire+2014.jpg">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Abduction.2019.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Alfil.Al'azraq.2%20.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Amar.Akbar.Anthony.2018.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Angel.Has.Fallen.2019.jpg">
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Ant-Man%20(2015)%E2%80%8E.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Avengers.Infinity.War.2018%20.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Baadshaho.2017.jpg">
+            </div>
+            <div class="col-xs-3 col-sm-3 col-md-3">
+              <img src="img/movies/Bharat.2019.jpg">
+            </div>
+          </div>
+        </div>
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#de" data-slide="prev" style="
+    width: 7%;
+">
+          <i class="fas fa-angle-left"></i> </a>
+        <a class="carousel-control-next" href="#de" data-slide="next" style="width: 7%">
+          <i class="fas fa-angle-right"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+  <!-------/////button top////////------->
+  <div class="cotainer-top">
+    <a id="back-to-top" href="#" class="btn btn-light btn-lg back-to-top" role="button" style=" color: #212529; background-color: #141518;
+    border-color: #000;"><i class="fas fa-angle-up"></i></a>
+  </div>
+  <!------///////footer///////----->
+  <div class="footer">&copy;copyRight (AHMED SABER)</div>
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/script.js"></script>
+  
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  
+  <script src="js/test.js"></script>
+</body>
+
+</html>
